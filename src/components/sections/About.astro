@@ -1,0 +1,21 @@
+---
+import Section from "../Section.astro"
+
+import { basics } from "@cv"
+const { summary } = basics
+---
+
+<Section title="Sobre mí">
+  <p>
+    {summary}
+  </p>
+</Section>
+
+<style>
+  @media (prefers-color-scheme: dark) {
+  p  {
+    color: #ccc9c9;
+  }
+}
+
+</style>

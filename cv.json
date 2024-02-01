@@ -1,0 +1,270 @@
+{
+  "basics": {
+    "name": "A. Florencia Pistán Esparza",
+    "label": "Full Stack Developer",
+    "image": "/me.webp",
+    "email": "florpistan14@gmail.com",
+    "phone": null,
+    "url": "https://midu.dev",
+    "summary": "Soy desarrolladora Full Stack, trabajo creando interfaces de usuario con React.js y REST APIs con NodeJs, Express.js, tengo experiencia desarrollando integraciones con Stripe, Mercado Pago, Vimeo y Firebase, Zoom y Google Calendar, tanto desde el lado del cliente como desde el servidor.",
+    "location": {
+      "address": "",
+      "postalCode": "4000",
+      "city": "San Miguel de Tucumán",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "florpistan",
+        "url": "https://linkedin.com/in/florpistan"
+      },
+      {
+        "network": "GitHub",
+        "username": "florpistan",
+        "url": "https://github.com/florpistan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "RollingCode",
+      "position": "Full Stack Developer",
+      "url": null,
+      "startDate": "2022-04-01",
+      "endDate": null,
+      "summary": "Desarrollo de interfaces de usuario, desarollo e integración de API propia. Desarrollo de integraciones con APIs y SDKs externas. Depuración y resolución de bugs. Documentación de implementaciones",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "RollingCode School",
+      "position": "Tutora Full Stack",
+      "url": null,
+      "startDate": "2021-02-22",
+      "endDate": "2023-09-01",
+      "summary": "Soporte técnico a estudiantes de Full Stack para ayudarlos en su camino a convertirse en desarrolladores web. En mi rol de tutora dicté clases, respondí consultas técnicas, resolví ejercicios prácticos y también di seguimiento continuo a los alumnos en su camino dentro de la School, siempre con el objetivo de que se sientan acompañados y que tengan soporte continuo.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Freelance",
+      "position": "FrontEnd Developer",
+      "startDate": "2021-01-05",
+      "endDate": "2023-11-01",
+      "summary": "Mantenimiento y soporte de sitios web de terceros. Desarrollo e implementación de nuevas features. Desarrollo de integraciones con APIs y SDKs externos",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universitat Oberta de Catalunya",
+      "url": "https://www.uoc.edu/portal/es/index.html",
+      "area": "Ingeniero de Software",
+      "studyType": "Bachelor",
+      "startDate": "2003-01-01",
+      "endDate": "2009-01-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "MongoDB",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React.js",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Ant Design",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "React Native",
+      "level": "Intermedio",
+      "keywords": ["Desarrollo Móvil", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Naturaleza",
+      "keywords": ["Botánica", "Biología", "Geología"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "mars.codes",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": ["Elige tu propia aventura", "En desarrollo"],
+      "url": "https://mars.codes"
+    },
+    {
+      "name": "AdventJS",
+      "isActive": true,
+      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "highlights": [
+        "+1 millón de visitas",
+        "Multidioma",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://adventjs.dev"
+    },
+    {
+      "name": "Codember",
+      "isActive": true,
+      "description": "Juego interactivo de programación con retos y secretos",
+      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
+      "url": "https://codember.dev"
+    },
+    {
+      "name": "codi.link",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
+      "url": "https://codi.link",
+      "github": "https://github.com/midudev/codi.link"
+    },
+    {
+      "name": "Pruebas Técnicas",
+      "isActive": true,
+      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/codi.link"
+    },
+    {
+      "name": "miduConf",
+      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
+      "url": "https://miduconf.com"
+    }
+  ]
+}
