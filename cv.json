@@ -29,11 +29,20 @@
   },
   "work": [
     {
+      "name": "UMA Health AI",
+      "position": "Full Stack Developer",
+      "url": null,
+      "startDate": "2024-02-21",
+      "endDate": null,
+      "summary": "Desarrollo de interfaces de usuario, desarollo e integración de API propia. Desarrollo de integraciones con APIs y SDKs externas. Depuración y resolución de bugs. Documentación de implementaciones",
+      "highlights": ["Started the company"]
+    },
+    {
       "name": "RollingCode",
       "position": "Full Stack Developer",
       "url": null,
       "startDate": "2022-04-01",
-      "endDate": null,
+      "endDate": "2024-02-02",
       "summary": "Desarrollo de interfaces de usuario, desarollo e integración de API propia. Desarrollo de integraciones con APIs y SDKs externas. Depuración y resolución de bugs. Documentación de implementaciones",
       "highlights": ["Started the company"]
     },
