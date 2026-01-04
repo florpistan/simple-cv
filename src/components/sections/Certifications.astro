@@ -1,0 +1,133 @@
+---
+import Section from "../Section.astro"
+
+import { certificates } from "@cv"
+---
+
+<Section title="Certificaciones">
+  <ul>
+    {
+      certificates.map(({ name, date, issuer, url }) => {
+        const issueDate = new Date(date)
+        const formattedDate = issueDate.toLocaleDateString('es-AR', {
+          year: 'numeric',
+          month: 'long'
+        })
+
+        // Extraer el ID del badge de la URL de Credly
+        const badgeId = url.split('/').pop()
+
+        return (
+          <li>
+            <article>
+              <div class="cert-content">
+                <header>
+                  <h3>{name}</h3>
+                  <p class="issuer">{issuer}</p>
+                  <time>{formattedDate}</time>
+                </header>
+                
+                <div 
+                  class="badge-container"
+                  data-iframe-width="150" 
+                  data-iframe-height="270" 
+                  data-share-badge-id={badgeId} 
+                  data-share-badge-host="https://www.credly.com"
+                ></div>
+              </div>
+            </article>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<script>
+  // Cargar el script de Credly solo una vez
+  if (typeof window !== 'undefined' && !document.querySelector('script[src*="credly.com"]')) {
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = '//cdn.credly.com/assets/utilities/embed.js';
+    document.head.appendChild(script);
+  }
+</script>
+
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article {
+    display: flex;
+    align-items: center;
+  }
+
+  .cert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 24px;
+  }
+
+  header {
+    flex: 1;
+    padding-top: 0;
+  }
+
+  article h3 {
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 4px;
+  }
+
+  .issuer {
+    color: #555;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+
+  .badge-container {
+    display: inline-block;
+    transition: transform 0.2s ease;
+    min-width: 150px;
+    min-height: 270px;
+    flex-shrink: 0;
+  }
+
+  .badge-container:hover {
+    transform: scale(1.05);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    article h3 {
+      background-color: #20252C;
+      color: #efeeee;
+    }
+
+    .issuer, time {
+      color: #ccc9c9;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cert-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .badge-container {
+      align-self: center;
+    }
+  }
+</style>
+
