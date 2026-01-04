@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "A. Florencia Pistán Esparza",
+    "name": "A. Florencia Pistan Esparza",
     "label": "Full Stack Developer",
-    "image": "/me.webp",
+    "image": "/IMG_20250530_203401_760.jpg",
     "email": "florpistan14@gmail.com",
     "phone": null,
-    "url": "https://midu.dev",
+    "url": "",
     "summary": "Soy desarrolladora Full Stack, trabajo creando interfaces de usuario con React.js y REST APIs con NodeJs, Express.js, tengo experiencia desarrollando integraciones con Stripe, Mercado Pago, Vimeo y Firebase, Zoom y Google Calendar, tanto desde el lado del cliente como desde el servidor.",
     "location": {
       "address": "",
       "postalCode": "4000",
       "city": "San Miguel de Tucumán",
       "countryCode": "AR",
-      "region": "Argentina"
+      "region": "Argentina 🇦🇷"
     },
     "profiles": [
       {
@@ -35,7 +35,7 @@
       "startDate": "2024-02-21",
       "endDate": null,
       "summary": "Desarrollo de interfaces de usuario, desarollo e integración de API propia. Desarrollo de integraciones con APIs y SDKs externas. Depuración y resolución de bugs. Documentación de implementaciones",
-      "highlights": ["Started the company"]
+      "highlights": [""]
     },
     {
       "name": "RollingCode",
@@ -44,7 +44,7 @@
       "startDate": "2022-04-01",
       "endDate": "2024-02-02",
       "summary": "Desarrollo de interfaces de usuario, desarollo e integración de API propia. Desarrollo de integraciones con APIs y SDKs externas. Depuración y resolución de bugs. Documentación de implementaciones",
-      "highlights": ["Started the company"]
+      "highlights": [""]
     },
     {
       "name": "RollingCode School",
@@ -53,7 +53,7 @@
       "startDate": "2021-02-22",
       "endDate": "2023-09-01",
       "summary": "Soporte técnico a estudiantes de Full Stack para ayudarlos en su camino a convertirse en desarrolladores web. En mi rol de tutora dicté clases, respondí consultas técnicas, resolví ejercicios prácticos y también di seguimiento continuo a los alumnos en su camino dentro de la School, siempre con el objetivo de que se sientan acompañados y que tengan soporte continuo.",
-      "highlights": ["Started the company"]
+      "highlights": [""]
     },
     {
       "name": "Freelance",
@@ -64,52 +64,12 @@
       "highlights": ["Started the company"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Universitat Oberta de Catalunya",
-      "url": "https://www.uoc.edu/portal/es/index.html",
-      "area": "Ingeniero de Software",
-      "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "Google Cloud Professional Developer",
+      "date": "2024-12-12",
+      "issuer": "Google Cloud",
+      "url": "https://www.credly.com/badges/f9f9565d-ba4c-4935-825e-43d5616b03b1"
     }
   ],
   "skills": [
@@ -146,6 +106,28 @@
         "Frontend",
         "Backend",
         "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Storybook",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Componentes",
+        "Documentación"
+      ]
+    },
+    {
+      "name": "Google Cloud",
+      "level": "Intermedio",
+      "keywords": [
+        "Cloud Computing",
+        "Google Cloud Platform",
+        "Google Cloud Functions",
+        "Google Cloud Storage",
+        "Google Cloud SQL",
+        "Google Cloud Run"
       ]
     },
     {
@@ -219,61 +201,6 @@
     {
       "name": "Naturaleza",
       "keywords": ["Botánica", "Biología", "Geología"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": ["Elige tu propia aventura", "En desarrollo"],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-      "url": "https://miduconf.com"
     }
   ]
 }
